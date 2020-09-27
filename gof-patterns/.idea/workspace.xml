@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c865b345-4fcf-429c-940a-2b7e7c545752" name="Default Changelist" comment="" />
+    <list default="true" id="c865b345-4fcf-429c-940a-2b7e7c545752" name="Default Changelist" comment="Added factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/FruitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/Grapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/IFruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factorytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factorytest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="275" />
+    <option name="myElementSize" value="131" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -16,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1i2KHs6CwKS2mmCgDMbfz32Y3zK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,7 +47,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/venkat/learn" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.All in gof-patterns (1)">
+  <component name="RunManager" selected="JUnit.All in gof-patterns (2)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.venkat.learn.gofpatterns.Main" />
       <module name="gof-patterns" />
@@ -44,6 +56,14 @@
       </method>
     </configuration>
     <configuration name="All in gof-patterns (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gof-patterns" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in gof-patterns (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gof-patterns" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -73,12 +93,14 @@
       <item itemvalue="JUnit.Factorytest" />
       <item itemvalue="JUnit.All in gof-patterns" />
       <item itemvalue="JUnit.All in gof-patterns (1)" />
+      <item itemvalue="JUnit.All in gof-patterns (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in gof-patterns (2)" />
+        <item itemvalue="JUnit.Factorytest" />
         <item itemvalue="JUnit.All in gof-patterns (1)" />
         <item itemvalue="JUnit.All in gof-patterns" />
-        <item itemvalue="JUnit.Factorytest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,31 +118,47 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added factory pattern" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601100422069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601100422069" />
+    <state x="1201" y="154" width="478" height="724" key="#com.intellij.ide.util.MemberChooser" timestamp="1601190922146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1201" y="154" width="478" height="724" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601190922146" />
     <state x="627" y="261" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601100418983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="261" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601100418983" />
-    <state width="1865" height="267" key="GridCell.Tab.0.bottom" timestamp="1601102066596">
+    <state x="990" y="45" key="CommitChangelistDialog2" timestamp="1601193962826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601102066596" />
-    <state width="1865" height="267" key="GridCell.Tab.0.center" timestamp="1601102066596">
+    <state x="990" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962826" />
+    <state x="368" y="85" key="DiffContextDialog" timestamp="1601193926413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601102066596" />
-    <state width="1865" height="267" key="GridCell.Tab.0.left" timestamp="1601102066596">
+    <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601193926413" />
+    <state width="904" height="264" key="GridCell.Tab.0.bottom" timestamp="1601193962852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601102066596" />
-    <state width="1865" height="267" key="GridCell.Tab.0.right" timestamp="1601102066596">
+    <state width="904" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
+    <state width="904" height="264" key="GridCell.Tab.0.center" timestamp="1601193962852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601102066596" />
+    <state width="904" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
+    <state width="904" height="264" key="GridCell.Tab.0.left" timestamp="1601193962852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
+    <state width="904" height="264" key="GridCell.Tab.0.right" timestamp="1601193962852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
     <state x="377" y="92" key="Maven.ArtifactSearchDialog" timestamp="1601101152701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -135,6 +173,8 @@
     <state x="734" y="284" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601100355682" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gof_patterns$Factorytest.ic" NAME="Factorytest Coverage Results" MODIFIED="1601193811600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gof_patterns$All_in_gof_patterns__2_.ic" NAME="All in gof-patterns (2) Coverage Results" MODIFIED="1601193865658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/gof_patterns$All_in_gof_patterns__1_.ic" NAME="All in gof-patterns (1) Coverage Results" MODIFIED="1601102035881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
