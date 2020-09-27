@@ -1,7 +1,7 @@
 package com.venkat.learn.gofpatterns.creational.factory;
 
 public interface IFruit {
-    public enum color_code{
+    enum color_code{
         RED,
         ORANGE,
         GREEN,
