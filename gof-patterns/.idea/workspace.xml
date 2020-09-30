@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c865b345-4fcf-429c-940a-2b7e7c545752" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/IFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/factory/IFruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/builder/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/builder/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/builder/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/builder/NonVegPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/builder/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/venkat/learn/gofpatterns/creational/builder/VegPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="131" />
+    <option name="myElementSize" value="76" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,17 +45,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/venkat/learn" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.All in gof-patterns (2)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.venkat.learn.gofpatterns.Main" />
-      <module name="gof-patterns" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.venkat.learn.gofpatterns.creational.builder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in gof-patterns">
     <configuration name="All in gof-patterns (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gof-patterns" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BuilderTest.nonVegMealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gof-patterns" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BuilderTest" />
+      <option name="METHOD_NAME" value="nonVegMealTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Factorytest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gof-patterns" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,19 +99,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Factorytest" />
       <item itemvalue="JUnit.All in gof-patterns" />
       <item itemvalue="JUnit.All in gof-patterns (1)" />
       <item itemvalue="JUnit.All in gof-patterns (2)" />
+      <item itemvalue="JUnit.BuilderTest.nonVegMealTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in gof-patterns" />
+        <item itemvalue="JUnit.BuilderTest.nonVegMealTest" />
         <item itemvalue="JUnit.All in gof-patterns (2)" />
         <item itemvalue="JUnit.Factorytest" />
         <item itemvalue="JUnit.All in gof-patterns (1)" />
-        <item itemvalue="JUnit.All in gof-patterns" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -117,50 +133,74 @@
       <option name="project" value="LOCAL" />
       <updated>1601193988295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjusted public modifier for color_code enum">
+      <created>1601194017034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601194017034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added factory pattern" />
+    <MESSAGE value="Adjusted public modifier for color_code enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted public modifier for color_code enum" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601100422069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601100422069" />
-    <state x="1201" y="154" width="478" height="724" key="#com.intellij.ide.util.MemberChooser" timestamp="1601190922146">
+    <state x="1201" y="154" width="478" height="724" key="#com.intellij.ide.util.MemberChooser" timestamp="1601479999369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1201" y="154" width="478" height="724" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601190922146" />
+    <state x="1201" y="154" width="478" height="724" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601479999369" />
     <state x="627" y="261" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601100418983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="261" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601100418983" />
-    <state x="990" y="45" key="CommitChangelistDialog2" timestamp="1601193986462">
+    <state x="990" y="45" key="CommitChangelistDialog2" timestamp="1601194015434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="990" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193986462" />
+    <state x="990" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601194015434" />
     <state x="368" y="85" key="DiffContextDialog" timestamp="1601193926413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601193926413" />
-    <state width="904" height="264" key="GridCell.Tab.0.bottom" timestamp="1601193962852">
+    <state width="902" height="261" key="GridCell.Tab.0.bottom" timestamp="1601482027973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="904" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
-    <state width="904" height="264" key="GridCell.Tab.0.center" timestamp="1601193962852">
+    <state width="902" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601482027973" />
+    <state width="902" height="261" key="GridCell.Tab.0.center" timestamp="1601482027973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="904" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
-    <state width="904" height="264" key="GridCell.Tab.0.left" timestamp="1601193962852">
+    <state width="902" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601482027973" />
+    <state width="902" height="261" key="GridCell.Tab.0.left" timestamp="1601482027973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="904" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
-    <state width="904" height="264" key="GridCell.Tab.0.right" timestamp="1601193962852">
+    <state width="902" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601482027973" />
+    <state width="902" height="261" key="GridCell.Tab.0.right" timestamp="1601482027973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="904" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601193962852" />
+    <state width="902" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601482027973" />
+    <state width="902" height="331" key="GridCell.Tab.1.bottom" timestamp="1601481613162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="331" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601481613162" />
+    <state width="902" height="331" key="GridCell.Tab.1.center" timestamp="1601481613162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="331" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601481613162" />
+    <state width="902" height="331" key="GridCell.Tab.1.left" timestamp="1601481613162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="331" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601481613162" />
+    <state width="902" height="331" key="GridCell.Tab.1.right" timestamp="1601481613162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="902" height="331" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601481613162" />
     <state x="377" y="92" key="Maven.ArtifactSearchDialog" timestamp="1601101152701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,14 +209,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601101583052" />
+    <state x="904" y="187" key="Vcs.Push.Dialog.v2" timestamp="1601194143122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="904" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601194143122" />
     <state x="734" y="284" key="chooseDestDirectoryDialog" timestamp="1601100355682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="284" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601100355682" />
+    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1601478809953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601478809953" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="meal.getItemNames()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gof_patterns$Factorytest.ic" NAME="Factorytest Coverage Results" MODIFIED="1601193811600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/gof_patterns$All_in_gof_patterns__2_.ic" NAME="All in gof-patterns (2) Coverage Results" MODIFIED="1601193865658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gof_patterns$All_in_gof_patterns.ic" NAME="All in gof-patterns Coverage Results" MODIFIED="1601482027881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gof_patterns$BuilderTest_nonVegMealTest.ic" NAME="BuilderTest.nonVegMealTest Coverage Results" MODIFIED="1601481980904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gof_patterns$All_in_gof_patterns__2_.ic" NAME="All in gof-patterns (2) Coverage Results" MODIFIED="1601481349561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/gof_patterns$All_in_gof_patterns__1_.ic" NAME="All in gof-patterns (1) Coverage Results" MODIFIED="1601102035881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
