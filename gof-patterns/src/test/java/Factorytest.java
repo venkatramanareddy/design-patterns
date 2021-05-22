@@ -2,7 +2,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import com.venkat.learn.gofpatterns.creational.factory.*;
 import org.junit.runner.RunWith;
-//import org.junit.platform.runner.JUnitPlatform;
 
 public class Factorytest {
     FruitFactory fruitFactory;

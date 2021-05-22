@@ -3,10 +3,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class FacadeTest {
-    AWSResourceMetadata resourceMetadata;
+    static AWSResourceMetadata resourceMetadata;
 
     @BeforeAll
-    public void init(){
+    public static void init(){
         resourceMetadata = new AWSResourceMetadata();
     }
 
