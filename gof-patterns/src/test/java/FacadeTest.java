@@ -1,12 +1,11 @@
 import com.venkat.learn.gofpatterns.structural.facade.AWSResourceMetadata;
-import org.junit.Before;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class FacadeTest {
     AWSResourceMetadata resourceMetadata;
 
-    @BeforeEach
+    @BeforeAll
     public void init(){
         resourceMetadata = new AWSResourceMetadata();
     }
