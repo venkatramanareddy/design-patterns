@@ -2,5 +2,4 @@
 A repo with implementation of GOF design patterns
 
 
-
-Made in free time
+Made during free time, suggestions/corrections are welcome
